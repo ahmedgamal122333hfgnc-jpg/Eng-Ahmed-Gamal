@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHMED EL-KASSAR // AI ENGINEER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="status-box">
+            <div class="blinking-dot"></div>
+            <span>AI CORE // ONLINE</span>
+        </div>
+        <div class="system-id">By Eng. Ahmed El-Kassar</div>
+    </header>
+
+    <main>
+        <div class="identity-card" id="captureArea">
+            
+            <!-- تاج نيون حقيقي مرسوم بالكود SVG وله توهج -->
+            <div class="neon-crown-container">
+                <svg class="neon-crown" viewBox="0 0 24 24">
+                    <path d="M5 16L3 5L8.5 10L12 4L15.5 10L21 5L19 16H5M19 19C19 19.6 18.6 20 18 20H6C5.4 20 5 19.6 5 19V18H19V19Z" />
+                </svg>
+            </div>
+
+            <!-- صورة الشخصية بتأثير النيون -->
+            <div class="profile-avatar-container" id="avatarTrigger">
+                <img src="profile.jpg" alt="Ahmed El-Kassar" class="profile-img">
+            </div>
+
+            <h1 class="profile-name">Ahmed El-Kassar</h1>
+            <p class="profile-title">أحمد جمال الدين بسيوني القصار</p>
+            <div class="subtitle-badge">AI ENGINEER</div>
+
+            <!-- وسائل التواصل مع خاصية إضاءة النيون والاعتام المتبادل -->
+            <div class="contacts-container">
+                <a href="tel:01043596374" class="contact-item">
+                    <span class="contact-label"> Phone Call</span>
+                    <span class="contact-value">01043596374</span>
+                </a>
+
+                <a href="https://wa.me/201507640907" target="_blank" class="contact-item">
+                    <span class="contact-label"> WhatsApp Only</span>
+                    <span class="contact-value">01507640907</span>
+                </a>
+
+                <a href="https://www.tiktok.com/@a7med_03_09_?_r=1&_t=ZS-9APiD0iQ731" target="_blank" class="contact-item">
+                    <span class="contact-label"> TikTok</span>
+                    <span class="contact-value">@a7med_03_09_</span>
+                </a>
+
+                <a href="https://www.instagram.com/a7med_gamal_380?mdxt=MXJ4dHhpdDM5emF2dA==" target="_blank" class="contact-item">
+                    <span class="contact-label"> Instagram</span>
+                    <span class="contact-value">@a7med_gamal_380</span>
+                </a>
+
+                <a href="https://www.facebook.com/share/1BxsKHmhD2/" target="_blank" class="contact-item">
+                    <span class="contact-label"> Facebook</span>
+                    <span class="contact-value">Ahmed Gamal</span>
+                </a>
+            </div>
+
+            <button class="action-btn" id="screenshotBtn">
+                <svg class="cam-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m8 3a5 5 0 0 0-5 5a5 5 0 0 0 5 5a5 5 0 0 0 5-5a5 5 0 0 0-5-5m0 2a3 3 0 0 1 3 3a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3Z"/></svg>
+                Capture Screenshot
+            </button>
+
+        </div>
+    </main>
+
+    <!-- نافذة تكبير الصورة -->
+    <div class="image-modal" id="imageModal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImg" src="profile.jpg" alt="Enlarged Profile">
+    </div>
+
+    <footer>
+        <div>NEURAL ARCHITECTURE</div>
+        <div>STATUS: VERIFIED</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
